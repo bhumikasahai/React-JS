@@ -1,0 +1,96 @@
+body{
+    margin:0px;
+    padding:0px;
+    background: url(wallpaperflare.com_wallpaper.jpg);
+    color: white;
+    font-family: "Balsamiq Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.left{
+    /*border:2px solid red;*/
+    display: inline-block;
+    top: 20px;
+    left: 58px;
+    position: absolute;
+}
+.left img{
+    width: 50px;
+    filter: invert(100%);
+}
+.left div{
+    text-align: center;
+    line-height: 2rem;
+    font-size: 20px;
+}
+.right{
+    /*border:2px solid rgb(196, 228, 18);*/
+    display: inline-block;
+    position: absolute;
+    top: 33px;
+    right: 34px;
+}
+.mid{
+    /*border:2px solid rgb(4, 97, 54);*/
+    width: 50%;
+    margin: 20px auto;
+    top: 20px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 22px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 25px 18px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+}
+.btn{
+    margin: 0px 9px;
+    background-color: rgba(24, 23, 23, 0.856);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: "Balsamiq Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.btn:hover{
+    background-color: rgb(94, 91, 91);
+}
+.container{
+    border: 5px solid black;
+    margin: 95px 80px;
+    padding: 50px;
+    width: 40%;
+    border-radius: 28px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 400px;
+    margin: 3px auto;
+    padding: 2px;
+    border-radius: 7px;
+    font-size: 15px;
+    font-family: "Balsamiq Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 400px;
+    margin: auto;
+}
