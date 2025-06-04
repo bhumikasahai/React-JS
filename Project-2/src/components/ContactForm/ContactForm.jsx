@@ -50,7 +50,7 @@ const ContactForm = () => {
                             justifyContent:"end",
                         }}>
                         <Button text = "SUBMIT" />
-                            <div>{d name + " " + email + " " + text}</div>
+                            <div>{' ' + name + " " + email + " " + text}</div>
                     </div>
                 </form>
             </div>
