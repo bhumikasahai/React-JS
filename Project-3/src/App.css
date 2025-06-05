@@ -6,34 +6,67 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
-}
-
-.App {
-  padding-top: 20px;
-  margin: 0;
   overflow-x: hidden;
 }
+
+/* Remove max-width, margin, and padding */
+#root {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* Remove padding-top from .App */
+.App {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Dark Mode Styling */
+.dark-mode {
+  background-color: #2e2e2e;
+  color: white;
+}
+
+.dark-mode input,
+.dark-mode textarea {
+  background-color: #444;
+  color: white;
+  border: 1px solid #888;
+}
+
+.dark-mode .app_form {
+  background-color: #444;
+}
+
+.dark-mode .app_input {
+  background-color: #666;
+  color: white;
+}
+
+.dark-mode .app_iconButton svg {
+  fill: white;
+}
+
 
 * {
   box-sizing: border-box;
 }
-
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-}
-
 .logo-wrapper {
   text-align: center;
   padding: 0px;
 }
 
 .logo {
-  height: auto;
+  padding-top: 10px;
+  height: 60px;
   max-height: 100px;
-  width: auto;
+  width: 50px;
   max-width: 100%;
   display: block;
   margin: 0 auto;

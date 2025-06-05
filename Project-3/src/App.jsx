@@ -7,13 +7,13 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 import SendIcon from '@mui/icons-material/Send';
 import { IconButton } from '@mui/material';
+import ThemeToggle from './ThemeToggle'; 
 
 
 function App() {
   {/* input field */ }
   const [input, setInput] = useState('');
-  const [messages, setMessages] = useState([{ username: 'sonny', message: 'hey guys' },
-  { username: 'qazi', message: 'whats up' }]);
+  const [messages, setMessages] = useState([]); 
   const [username, setUsername] = useState('');
 
   //useEffect = block of code hich gets executed based on the conditions
@@ -47,10 +47,11 @@ function App() {
 
   return (
     <div className='App'>
+      <ThemeToggle />
       <div className="logo-wrapper">
         <img src="/messenger-logo.png" alt="Messenger Logo" className="logo" />
       </div>
-      <h1>Hello Clever Programer 🚀</h1>
+      {/* <h1>Hello Clever Programer 🚀</h1> */}
       <h2>Welcome {username}</h2>
       <div>
         <form className='app_form'>
