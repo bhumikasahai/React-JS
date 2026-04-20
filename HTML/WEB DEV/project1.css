@@ -1,0 +1,82 @@
+h1 {
+    color:black;
+    font-size:24px;
+    text-align:center;
+    padding-left: 500px;
+    padding-top: 50px;
+    width:200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+h2 {
+    color: rgba(165, 42, 42, 0.884);
+    font-size:26px;
+    text-align:center;
+    font-family: cursive;
+}
+body {
+    background-image: url(https://img.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg?size=626&ext=jpg);
+}
+.obj1 {
+    
+    padding-left: 300px;
+    
+}
+
+#p{
+    background-color: rgb(198, 216, 214);
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height:2em;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: darkslategrey;
+}
+li {
+    float:left;
+}
+li a {
+    display:block;
+    color:whitesmoke;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    color:lightslategrey;
+}
+h1 {
+    color:black;
+    font-size:26px;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  .active {
+    background-color: #04AA6D;
+  }

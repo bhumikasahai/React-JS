@@ -1,0 +1,74 @@
+{
+  
+  "name": "bhumika's-codes",
+  
+  "version": "1.0.0",
+  
+  "description": "��#\u0000 \u0000c\u0000h\u0000a\u0000i\u0000-\u0000a\u0000u\u0000r\u0000-\u0000r\u0000e\u0000a\u0000c\u0000t\u0000\r\u0000 \u0000#\u0000 \u0000c\u0000h\u0000a\u0000i\u0000-\u0000a\u0000u\u0000r\u0000-\u0000r\u0000e\u0000a\u0000c\u0000t\u0000\r\u0000 \u0000#\u0000 \u0000c\u0000h\u0000a\u0000i\u0000-\u0000a\u0000u\u0000r\u0000-\u0000r\u0000e\u0000a\u0000c\u0000t\u0000\r\u0000 \u0000#\u0000 \u0000c\u0000h\u0000a\u0000i\u0000-\u0000a\u0000u\u0000r\u0000-\u0000r\u0000e\u0000a\u0000c\u0000t\u0000\r\u0000 \u0000#\u0000 \u0000c\u0000h\u0000a\u0000i\u0000-\u0000a\u0000u\u0000r\u0000-\u0000r\u0000e\u0000a\u0000c\u0000t\u0000\r\u0000 \u0000#\u0000 \u0000c\u0000h\u0000a\u0000i\u0000-\u0000a\u0000u\u0000r\u0000-\u0000r\u0000e\u0000a\u0000c\u0000t\u0000\r\u0000 \u0000#\u0000 \u0000c\u0000h\u0000a\u0000i\u0000-\u0000a\u0000u\u0000r\u0000-\u0000r\u0000e\u0000a\u0000c\u0000t\u0000\r\u0000 \u0000",
+  
+  "main": "index.js",
+  
+  "scripts": {
+  
+    
+  "start": "react-scripts start",
+  
+    
+  "build": "react-scripts build",
+  
+    
+  "test": "react-scripts test",
+  
+    
+  "eject": "react-scripts eject"
+  
+  },
+  
+  "repository": {
+  
+    
+  "type": "git",
+  
+    
+  "url": "git+https://github.com/bhumikasahai/React-JS.git"
+  
+  },
+  
+  "keywords": [],
+  
+  "author": "",
+  
+  "license": "ISC",
+  
+  "bugs": {
+  
+    
+  "url": "https://github.com/bhumikasahai/React-JS/issues"
+  
+  },
+  
+  "homepage": "https://github.com/bhumikasahai/React-JS#readme",
+  
+  "dependencies": {
+  
+    
+  "react": "^19.1.0",
+  
+    
+  "react-dom": "^19.1.0",
+  
+    
+  "react-icons": "^5.5.0",
+  
+    
+  "react-scripts": "^3.0.1"
+  
+  },
+  
+  "devDependencies": {
+  
+    
+  "vite": "^6.3.5"
+  
+  }
+}
